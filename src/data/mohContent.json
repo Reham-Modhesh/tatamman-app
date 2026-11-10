@@ -1,0 +1,363 @@
+[
+  {
+    "id": "moh-101",
+    "titleAr": "التعافي بعد استئصال المرارة بالمنظار",
+    "type": "article",
+    "categoryAr": "الجراحة العامة",
+    "codes": [
+      "K80.2",
+      "47562"
+    ],
+    "bodyAr": "معظم المرضى يعودون لأنشطتهم اليومية خلال أسبوع إلى أسبوعين بعد استئصال المرارة بالمنظار. قد تشعر بألم خفيف في الكتف خلال الأيام الأولى بسبب الغاز المستخدم أثناء العملية، وهو أمر طبيعي يزول تدريجياً. المشي المنتظم يساعد على التعافي ويقلل خطر الجلطات.",
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0101",
+    "lastReviewed": "2026-06-15"
+  },
+  {
+    "id": "moh-102",
+    "titleAr": "العناية بالغرز والجروح بعد الجراحة",
+    "type": "video",
+    "categoryAr": "الجراحة العامة",
+    "codes": [
+      "47562",
+      "44970"
+    ],
+    "bodyAr": "مقطع مرئي يشرح العناية بالغرز في المنزل: إبقاء الجرح نظيفاً وجافاً خلال أول 24 إلى 48 ساعة، وفحصه يومياً، ومتى يجب مراجعة الطبيب.",
+    "durationMinutes": 3,
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "منصة التوعية",
+        "الإسعافات الأولية"
+      ],
+      "pageTitle": "First Aid - Stitches",
+      "url": "https://www.moh.gov.sa/en/awarenessplateform/firstaid/pages/stitches.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0102",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-103",
+    "titleAr": "قائمة العناية اليومية بالجرح والغرز",
+    "type": "checklist",
+    "categoryAr": "الجراحة العامة",
+    "codes": [
+      "47562",
+      "44970"
+    ],
+    "bodyAr": "خطوات يومية للعناية بالجرح حتى يلتئم.",
+    "checklistAr": [
+      "حافظ على الجرح نظيفاً وجافاً خلال أول 24 إلى 48 ساعة",
+      "افحص الجرح يومياً بحثاً عن احمرار أو تورم أو صديد",
+      "لا تنقع الجرح في الماء ولا تسبح حتى يلتئم",
+      "تجنب الضغط على مكان الغرز",
+      "راجع الطبيب عند ارتفاع الحرارة أو خروج إفرازات كريهة الرائحة"
+    ],
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "منصة التوعية",
+        "الإسعافات الأولية"
+      ],
+      "pageTitle": "First Aid - Stitches",
+      "url": "https://www.moh.gov.sa/en/awarenessplateform/firstaid/pages/stitches.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0103",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-104",
+    "titleAr": "غذاؤك بعد استئصال المرارة",
+    "type": "infographic",
+    "categoryAr": "التغذية العلاجية",
+    "codes": [
+      "47562"
+    ],
+    "bodyAr": "يتكيف جسمك تدريجياً على هضم الدهون دون المرارة.",
+    "stepsAr": [
+      {
+        "titleAr": "الأسبوع الأول",
+        "textAr": "وجبات صغيرة وخفيفة، مع شوربات وخضار مطهوة"
+      },
+      {
+        "titleAr": "الأسبوع 2 - 4",
+        "textAr": "قلل الدهون والمقليات، واختر اللحوم الخالية من الدهون"
+      },
+      {
+        "titleAr": "بعد 4 أسابيع",
+        "textAr": "أعد إدخال الأطعمة المعتادة تدريجياً حسب تحملك"
+      },
+      {
+        "titleAr": "طوال الوقت",
+        "textAr": "اشرب الماء بكثرة وأضف الألياف لتجنب الإمساك"
+      }
+    ],
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0104",
+    "lastReviewed": "2026-08-01"
+  },
+  {
+    "id": "moh-201",
+    "titleAr": "النوبة القلبية: الأعراض والوقاية",
+    "type": "article",
+    "categoryAr": "أمراض القلب",
+    "codes": [
+      "I21"
+    ],
+    "bodyAr": "تحدث النوبة القلبية عند توقف تدفق الدم إلى جزء من عضلة القلب، وغالباً بسبب تراكم الترسبات الدهنية في الشرايين التاجية. قد تبدأ الأعراض بألم خفيف أو ضغط في الصدر يمتد إلى الفك أو الرقبة أو الذراعين أو الظهر، مع تعرق بارد أو غثيان. ويقلل الإقلاع عن التدخين وضبط الضغط والكوليسترول والسكر والنشاط البدني والتغذية الصحية من خطر تكرارها.",
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض القلب والأوعية الدموية"
+      ],
+      "pageTitle": "Cardiovascular Diseases - Heart attacks",
+      "url": "https://www.moh.gov.sa/en/healthawareness/educationalcontent/diseases/heartcirculatory/pages/heart-attacks.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0201",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-202",
+    "titleAr": "القسطرة القلبية: العناية بعد الإجراء",
+    "type": "checklist",
+    "categoryAr": "أمراض القلب",
+    "codes": [
+      "92928"
+    ],
+    "bodyAr": "خطوات بسيطة للعناية بمكان القسطرة خلال الأسبوع الأول.",
+    "checklistAr": [
+      "افحص مكان القسطرة يومياً",
+      "حافظ على المكان نظيفاً وجافاً",
+      "تجنب ثني الرسغ بقوة أو رفع أشياء ثقيلة باليد نفسها",
+      "اضغط على المكان واتصل بالإسعاف إذا ظهر نزيف لا يتوقف"
+    ],
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض القلب والأوعية الدموية"
+      ],
+      "pageTitle": "Cardiovascular Diseases - Cardiac Catheterization",
+      "url": "https://moh.gov.sa/en/HealthAwareness/EducationalContent/Diseases/Heartcirculatory/Pages/Cardiac-catheterization.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0202",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-203",
+    "titleAr": "التأهيل القلبي والوقاية الثانوية",
+    "type": "video",
+    "categoryAr": "العلاج الطبيعي",
+    "codes": [
+      "I21",
+      "92928"
+    ],
+    "bodyAr": "تمارين مشي وتنفس آمنة للأسابيع الأولى بعد النوبة القلبية ضمن برنامج التأهيل القلبي.",
+    "durationMinutes": 6,
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0203",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-204",
+    "titleAr": "ماذا تفعل عند الشعور بألم في الصدر",
+    "type": "infographic",
+    "categoryAr": "أمراض القلب",
+    "codes": [
+      "I21"
+    ],
+    "bodyAr": "خطوات سريعة يجب أن تعرفها أنت وعائلتك.",
+    "stepsAr": [
+      {
+        "titleAr": "توقف",
+        "textAr": "أوقف أي مجهود واجلس فوراً"
+      },
+      {
+        "titleAr": "اتصل",
+        "textAr": "اتصل بالهلال الأحمر 997 إذا استمر الألم أكثر من 5 دقائق"
+      },
+      {
+        "titleAr": "لا تقد",
+        "textAr": "لا تقد السيارة بنفسك إلى المستشفى"
+      },
+      {
+        "titleAr": "أخبر",
+        "textAr": "أخبر المسعفين بأنك ركبت دعامة مؤخراً"
+      }
+    ],
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض القلب والأوعية الدموية"
+      ],
+      "pageTitle": "Cardiovascular Diseases - Heart attacks",
+      "url": "https://www.moh.gov.sa/en/healthawareness/educationalcontent/diseases/heartcirculatory/pages/heart-attacks.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0204",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-301",
+    "titleAr": "السكري من النوع الثاني: العلاج والمتابعة",
+    "type": "video",
+    "categoryAr": "السكري",
+    "codes": [
+      "E11"
+    ],
+    "bodyAr": "شرح مبسط للسكري من النوع الثاني: مرض مزمن يحتاج إلى تغذية صحية ونشاط بدني وأدوية حسب وصف الطبيب، قد تشمل الأنسولين، مع مراجعات منتظمة.",
+    "durationMinutes": 4,
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض السكري"
+      ],
+      "pageTitle": "Diabetes-related Diseases - Type II diabetes",
+      "url": "https://www.moh.gov.sa/en/healthawareness/educationalcontent/diseases/diabetic/pages/008.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0301",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-302",
+    "titleAr": "هبوط السكر في الدم",
+    "type": "checklist",
+    "categoryAr": "السكري",
+    "codes": [
+      "E11",
+      "E16.2"
+    ],
+    "bodyAr": "يُعالج هبوط السكر إذا كانت القراءة 70 ملغ/دسل أو أقل. قِس السكر بانتظام، خاصة قبل النوم وعند تغيير جرعة الأنسولين.",
+    "checklistAr": [
+      "قِس السكر فوراً عند الشعور بالرجفة أو التعرق",
+      "تناول نصف كوب عصير أو 3 حبات تمر",
+      "أعد القياس بعد 15 دقيقة",
+      "اتصل بالإسعاف 997 إذا لم يتحسن السكر أو فقدت الوعي"
+    ],
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض السكري"
+      ],
+      "pageTitle": "Diabetes-related Diseases - Hypoglycemia (Low Blood Glucose Levels)",
+      "url": "https://www.moh.gov.sa/en/healthawareness/educationalcontent/diseases/diabetic/pages/hypoglycemia-low-blood-glucose-levels.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0302",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-303",
+    "titleAr": "النشاط البدني الآمن لمرضى السكري",
+    "type": "infographic",
+    "categoryAr": "التغذية العلاجية",
+    "codes": [
+      "E11"
+    ],
+    "bodyAr": "خطوات بسيطة قبل التمرين لتجنب هبوط السكر.",
+    "stepsAr": [
+      {
+        "titleAr": "قبل التمرين",
+        "textAr": "قِس السكر قبل التمرين وبعده"
+      },
+      {
+        "titleAr": "إذا كان أقل من 100",
+        "textAr": "تناول وجبة خفيفة فيها 15 إلى 20 غراماً من الكربوهيدرات"
+      },
+      {
+        "titleAr": "مكان الحقن",
+        "textAr": "لا تحقن الأنسولين في عضو ستستخدمه في التمرين، مثل الفخذ قبل المشي"
+      }
+    ],
+    "source": "MOH",
+    "sourceRef": {
+      "platformAr": "منصة التوعية الصحية - وزارة الصحة السعودية",
+      "sectionPathAr": [
+        "المحتوى التثقيفي",
+        "الأمراض",
+        "أمراض السكري"
+      ],
+      "pageTitle": "Diabetes-related Diseases - Diabetes and Physical Activity",
+      "url": "https://moh.gov.sa/en/HealthAwareness/EducationalContent/Diseases/diabetic/Pages/Diabetes-and-Physical-Activity.aspx",
+      "lang": "en",
+      "lastChecked": "2026-11-10"
+    },
+    "libraryId": "TTM-LIB-0303",
+    "lastReviewed": "2026-11-10"
+  },
+  {
+    "id": "moh-901",
+    "titleAr": "استخدام بخاخ الربو بالطريقة الصحيحة",
+    "type": "video",
+    "categoryAr": "الأمراض الصدرية",
+    "codes": [
+      "J45"
+    ],
+    "bodyAr": "شرح طريقة استخدام البخاخ مع الموزع (Spacer).",
+    "durationMinutes": 3,
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0901",
+    "lastReviewed": "2026-03-12"
+  },
+  {
+    "id": "moh-902",
+    "titleAr": "العناية بالقدم السكرية",
+    "type": "article",
+    "categoryAr": "السكري",
+    "codes": [
+      "E11.621"
+    ],
+    "bodyAr": "افحص قدميك يومياً بحثاً عن جروح أو تقرحات، ولا تمشِ حافياً.",
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0902",
+    "lastReviewed": "2026-04-28"
+  },
+  {
+    "id": "moh-903",
+    "titleAr": "التعافي بعد استئصال الزائدة الدودية",
+    "type": "article",
+    "categoryAr": "الجراحة العامة",
+    "codes": [
+      "K35.8",
+      "44970"
+    ],
+    "bodyAr": "يعود معظم المرضى لنشاطهم خلال أسبوعين بعد استئصال الزائدة بالمنظار.",
+    "source": "MOH",
+    "sourceRef": null,
+    "libraryId": "TTM-LIB-0903",
+    "lastReviewed": "2026-04-28"
+  }
+]

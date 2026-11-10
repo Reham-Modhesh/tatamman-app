@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans Arabic", system-ui, sans-serif;
+  /* Sehhaty tokens, pixel-sampled from the official app (dark theme, ملفي tab). */
+  --color-sh-bg: #0f121c;          /* page background */
+  --color-sh-raised: #202f2c;      /* filled cards (شركاؤنا), inner panels */
+  --color-sh-banner: #0f1d23;      /* promo banner (التوأم الرقمي) */
+  --color-sh-tile: #0f1d23;        /* icon tile behind list-row icons */
+  --color-sh-pill: #232733;        /* segmented-control track */
+  --color-sh-segment: #353944;     /* inactive segment */
+  --color-sh-segment-active: #0f121c;
+  --color-sh-line: #76a28c;        /* 1px outline of cards and tiles */
+  --color-sh-divider: #567769;     /* separator between list rows */
+  --color-sh-nav-line: #353944;    /* hairline above the bottom nav */
+  --color-sh-green: #55bf8a;       /* primary green: links, icons, buttons, avatar */
+  --color-sh-green-text: #55bf8a;
+  --color-sh-text: #f4f4f6;        /* titles and row labels */
+  --color-sh-muted: #d6d8dd;       /* secondary copy */
+  --color-sh-subtle: #8b8b8b;      /* inactive nav icons, meta text */
+  --color-sh-danger: #e8786b;      /* emergency (997) button */
+  --color-sh-nav-active: #01000a;  /* active bottom-nav pill */
+  --radius-sh-card: 14px;
+  --radius-sh-btn: 10px;
+  --radius-sh-tile: 8px;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 font-sans antialiased;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}

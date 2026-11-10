@@ -1,0 +1,519 @@
+[
+  {
+    "id": "dn-001",
+    "caseLabelAr": "استئصال المرارة بالمنظار",
+    "specialty": "surgery",
+    "hospitalAr": "مستشفى تجريبي التخصصي",
+    "departmentAr": "الجراحة العامة",
+    "encounterId": "ENC-2026-10502",
+    "admissionDate": "2026-11-01",
+    "dischargeDate": "2026-11-03",
+    "patient": {
+      "id": "p-001",
+      "nationalIdMasked": "1*******52",
+      "nameAr": "فاطمة علي الغامدي",
+      "age": 41,
+      "gender": "female",
+      "phone": "05XXXXXX31"
+    },
+    "attendingDoctor": {
+      "id": "d-001",
+      "nameAr": "د. ريم الحربي",
+      "specialtyAr": "استشاري الجراحة العامة",
+      "licenseNo": "SCFHS-MOCK-30417"
+    },
+    "healthEducator": {
+      "id": "he-001",
+      "nameAr": "أ. هيا المطيري",
+      "specialtyAr": "أخصائية تثقيف صحي - الجراحة",
+      "licenseNo": "SCFHS-MOCK-55102"
+    },
+    "diagnosis": {
+      "system": "ICD-10",
+      "code": "K80.20",
+      "category": "K80.2",
+      "categoryDescriptionEn": "Calculus of gallbladder without cholecystitis",
+      "descriptionAr": "حصوات المرارة المصحوبة بأعراض",
+      "descriptionEn": "Calculus of gallbladder without cholecystitis"
+    },
+    "procedures": [
+      {
+        "system": "CPT",
+        "code": "47562",
+        "descriptionAr": "استئصال المرارة بالمنظار",
+        "descriptionEn": "Laparoscopic cholecystectomy"
+      }
+    ],
+    "rawNoteEn": "DISCHARGE SUMMARY\nPatient admitted with recurrent right upper quadrant pain. Ultrasound confirmed symptomatic cholelithiasis without cholecystitis. Underwent laparoscopic cholecystectomy on 02/11/2026; procedure uncomplicated, 4 port sites closed with absorbable sutures. Tolerating regular diet, ambulating independently, pain controlled on oral analgesia.\nDischarge meds: Paracetamol 1 g PO q8h PRN; Ibuprofen 400 mg PO q8h with food x 3 days.\nInstructions: keep wounds clean and dry, may shower after 48 hours, avoid lifting >5 kg for 2 weeks, low-fat diet for 4 weeks.\nReturn to ED if fever >38.5, jaundice, persistent vomiting, or severe abdominal pain.\nFollow-up: General Surgery clinic in 10 days for wound review.",
+    "extractedEntities": [
+      {
+        "type": "diagnosis",
+        "labelAr": "حصوات المرارة المصحوبة بأعراض",
+        "code": "K80.20",
+        "evidence": "symptomatic cholelithiasis without cholecystitis"
+      },
+      {
+        "type": "procedure",
+        "labelAr": "استئصال المرارة بالمنظار",
+        "code": "47562",
+        "evidence": "laparoscopic cholecystectomy"
+      },
+      {
+        "type": "medication",
+        "labelAr": "باراسيتامول 1 غ عند الحاجة",
+        "evidence": "Paracetamol 1 g PO q8h PRN"
+      },
+      {
+        "type": "medication",
+        "labelAr": "إيبوبروفين 400 ملغ لمدة 3 أيام",
+        "evidence": "Ibuprofen 400 mg PO q8h with food x 3 days"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "العناية بالجروح",
+        "evidence": "keep wounds clean and dry, may shower after 48 hours"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "تقييد رفع الأوزان",
+        "evidence": "avoid lifting >5 kg for 2 weeks"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "نظام غذائي قليل الدهون",
+        "evidence": "low-fat diet for 4 weeks"
+      },
+      {
+        "type": "red_flag",
+        "labelAr": "علامات العودة للطوارئ",
+        "evidence": "Return to ED if fever >38.5, jaundice, persistent vomiting, or severe abdominal pain"
+      }
+    ],
+    "summaryAr": "أُجريت لكِ عملية استئصال المرارة بالمنظار بنجاح ودون مضاعفات، من خلال 4 فتحات صغيرة أُغلقت بغرز تذوب تلقائياً. حالتك مستقرة، وتأكلين وتمشين بشكل طبيعي.",
+    "medications": [
+      {
+        "name": "Paracetamol",
+        "nameAr": "باراسيتامول",
+        "dose": "1 غ",
+        "frequencyAr": "كل 8 ساعات عند الحاجة للألم",
+        "times": [
+          "08:00",
+          "16:00",
+          "00:00"
+        ],
+        "durationDays": 7
+      },
+      {
+        "name": "Ibuprofen",
+        "nameAr": "إيبوبروفين",
+        "dose": "400 ملغ",
+        "frequencyAr": "كل 8 ساعات",
+        "times": [
+          "08:00",
+          "16:00",
+          "00:00"
+        ],
+        "durationDays": 3,
+        "instructionsAr": "يؤخذ مع الطعام"
+      }
+    ],
+    "warningSignsAr": [
+      "ارتفاع الحرارة أعلى من 38.5 درجة",
+      "اصفرار الجلد أو بياض العينين",
+      "قيء مستمر لا يتوقف",
+      "ألم شديد ومتزايد في البطن"
+    ],
+    "homeCare": [
+      {
+        "category": "wound",
+        "titleAr": "العناية بالجروح",
+        "itemsAr": [
+          "حافظي على الجروح نظيفة وجافة",
+          "يمكنكِ الاستحمام بعد 48 ساعة من العملية، ثم جففي الجروح بلطف",
+          "الغرز تذوب تلقائياً ولا تحتاج إلى إزالة"
+        ]
+      },
+      {
+        "category": "activity",
+        "titleAr": "النشاط والحركة",
+        "itemsAr": [
+          "تجنبي رفع أوزان تزيد عن 5 كجم لمدة أسبوعين",
+          "امشي عدة مرات يومياً لتنشيط الدورة الدموية"
+        ]
+      },
+      {
+        "category": "diet",
+        "titleAr": "التغذية",
+        "itemsAr": [
+          "اتبعي نظاماً غذائياً قليل الدهون لمدة 4 أسابيع",
+          "قسّمي الطعام إلى وجبات صغيرة ومتعددة"
+        ]
+      },
+      {
+        "category": "pain",
+        "titleAr": "التحكم في الألم",
+        "itemsAr": [
+          "باراسيتامول عند الحاجة كل 8 ساعات",
+          "إيبوبروفين مع الطعام لمدة 3 أيام فقط"
+        ]
+      }
+    ],
+    "followUp": [
+      {
+        "clinicAr": "عيادة الجراحة العامة",
+        "date": "2026-11-13",
+        "time": "09:30",
+        "locationAr": "مبنى العيادات الخارجية - الدور الثاني",
+        "notesAr": "فحص الجروح"
+      }
+    ]
+  },
+  {
+    "id": "dn-003",
+    "caseLabelAr": "السكري - بدء العلاج بالأنسولين",
+    "specialty": "endocrinology",
+    "hospitalAr": "مستشفى تجريبي التخصصي",
+    "departmentAr": "الغدد الصماء والسكري",
+    "encounterId": "ENC-2026-10458",
+    "admissionDate": "2026-11-01",
+    "dischargeDate": "2026-11-04",
+    "patient": {
+      "id": "p-003",
+      "nationalIdMasked": "1*******78",
+      "nameAr": "نورة سعد الدوسري",
+      "age": 46,
+      "gender": "female",
+      "phone": "05XXXXXX45"
+    },
+    "attendingDoctor": {
+      "id": "d-003",
+      "nameAr": "د. خالد الزهراني",
+      "specialtyAr": "استشاري الغدد الصماء",
+      "licenseNo": "SCFHS-MOCK-20931"
+    },
+    "healthEducator": {
+      "id": "he-003",
+      "nameAr": "أ. منيرة العنزي",
+      "specialtyAr": "مثقفة سكري معتمدة",
+      "licenseNo": "SCFHS-MOCK-55364"
+    },
+    "diagnosis": {
+      "system": "ICD-10",
+      "code": "E11.65",
+      "category": "E11",
+      "categoryDescriptionEn": "Type 2 diabetes mellitus",
+      "descriptionAr": "السكري من النوع الثاني مع ارتفاع السكر في الدم",
+      "descriptionEn": "Type 2 diabetes mellitus with hyperglycemia"
+    },
+    "procedures": [],
+    "rawNoteEn": "DISCHARGE SUMMARY\nAdmitted with blood glucose 420 mg/dL and polyuria; no DKA. Known type 2 diabetes mellitus with hyperglycemia, HbA1c 11.2%. Basal insulin initiated, oral agents adjusted. Patient and family received bedside insulin pen teaching.\nDischarge meds: Insulin Glargine 18 units SC at bedtime; Metformin 1000 mg PO BID with meals.\nInstructions: check capillary glucose before breakfast and at bedtime, reduce simple sugars and refined carbohydrates, walk 30 minutes daily once glucose stable.\nReturn to ED if glucose <70 mg/dL not responding to treatment, glucose >300 mg/dL on two readings, persistent vomiting, or confusion.\nFollow-up: Diabetes clinic in 1 week; diabetes educator for pen technique review.",
+    "extractedEntities": [
+      {
+        "type": "diagnosis",
+        "labelAr": "السكري النوع الثاني مع ارتفاع السكر",
+        "code": "E11.65",
+        "evidence": "type 2 diabetes mellitus with hyperglycemia"
+      },
+      {
+        "type": "medication",
+        "labelAr": "أنسولين جلارجين 18 وحدة",
+        "evidence": "Insulin Glargine 18 units SC at bedtime"
+      },
+      {
+        "type": "medication",
+        "labelAr": "ميتفورمين 1000 ملغ",
+        "evidence": "Metformin 1000 mg PO BID with meals"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "قياس السكر المنزلي",
+        "evidence": "check capillary glucose before breakfast and at bedtime"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "تعديل النظام الغذائي",
+        "evidence": "reduce simple sugars and refined carbohydrates"
+      },
+      {
+        "type": "red_flag",
+        "labelAr": "علامات العودة للطوارئ",
+        "evidence": "Return to ED if glucose <70 mg/dL not responding to treatment, glucose >300 mg/dL on two readings, persistent vomiting, or confusion"
+      }
+    ],
+    "summaryAr": "تم إدخالك بسبب ارتفاع شديد في سكر الدم. بدأنا علاجك بالأنسولين القاعدي مرة يومياً قبل النوم مع تعديل الأدوية الفموية، وتدربتِ على استخدام قلم الأنسولين.",
+    "medications": [
+      {
+        "name": "Insulin Glargine",
+        "nameAr": "أنسولين جلارجين",
+        "dose": "18 وحدة",
+        "frequencyAr": "مرة يومياً قبل النوم",
+        "times": [
+          "22:00"
+        ],
+        "durationDays": 90,
+        "instructionsAr": "تحت الجلد، مع تغيير مكان الحقن كل مرة"
+      },
+      {
+        "name": "Metformin",
+        "nameAr": "ميتفورمين",
+        "dose": "1000 ملغ",
+        "frequencyAr": "مرتين يومياً",
+        "times": [
+          "08:00",
+          "20:00"
+        ],
+        "durationDays": 90,
+        "instructionsAr": "مع الوجبات"
+      }
+    ],
+    "warningSignsAr": [
+      "سكر أقل من 70 ملغ/دسل لا يتحسن بعد العلاج",
+      "سكر أعلى من 300 ملغ/دسل في قراءتين متتاليتين",
+      "قيء مستمر",
+      "تشوش ذهني أو صعوبة في الاستيقاظ"
+    ],
+    "homeCare": [
+      {
+        "category": "monitoring",
+        "titleAr": "قياس السكر",
+        "itemsAr": [
+          "قيسي السكر قبل الإفطار وقبل النوم",
+          "سجّلي القراءات وأحضريها إلى موعدك"
+        ]
+      },
+      {
+        "category": "diet",
+        "titleAr": "التغذية",
+        "itemsAr": [
+          "قللي السكريات البسيطة والنشويات المكررة",
+          "وزعي الوجبات بانتظام خلال اليوم"
+        ]
+      },
+      {
+        "category": "activity",
+        "titleAr": "النشاط البدني",
+        "itemsAr": [
+          "امشي 30 دقيقة يومياً بعد استقرار السكر"
+        ]
+      },
+      {
+        "category": "hygiene",
+        "titleAr": "استخدام قلم الأنسولين",
+        "itemsAr": [
+          "غيّري مكان الحقن في كل مرة",
+          "استخدمي إبرة جديدة لكل حقنة"
+        ]
+      }
+    ],
+    "followUp": [
+      {
+        "clinicAr": "عيادة السكري",
+        "date": "2026-11-11",
+        "time": "11:00",
+        "locationAr": "مركز السكري"
+      },
+      {
+        "clinicAr": "التثقيف الصحي للسكري",
+        "date": "2026-11-12",
+        "time": "13:00",
+        "notesAr": "مراجعة طريقة استخدام قلم الأنسولين"
+      }
+    ]
+  },
+  {
+    "id": "dn-002",
+    "caseLabelAr": "قسطرة قلبية وتركيب دعامة",
+    "specialty": "cardiology",
+    "hospitalAr": "مستشفى تجريبي التخصصي",
+    "departmentAr": "أمراض القلب",
+    "encounterId": "ENC-2026-10421",
+    "admissionDate": "2026-10-30",
+    "dischargeDate": "2026-11-03",
+    "patient": {
+      "id": "p-002",
+      "nationalIdMasked": "1*******34",
+      "nameAr": "محمد عبدالله العتيبي",
+      "age": 58,
+      "gender": "male",
+      "phone": "05XXXXXX12"
+    },
+    "attendingDoctor": {
+      "id": "d-002",
+      "nameAr": "د. سارة القحطاني",
+      "specialtyAr": "استشارية أمراض القلب",
+      "licenseNo": "SCFHS-MOCK-11872"
+    },
+    "healthEducator": {
+      "id": "he-002",
+      "nameAr": "أ. فيصل السبيعي",
+      "specialtyAr": "أخصائي تثقيف صحي - القلب",
+      "licenseNo": "SCFHS-MOCK-55218"
+    },
+    "diagnosis": {
+      "system": "ICD-10",
+      "code": "I21.4",
+      "category": "I21",
+      "categoryDescriptionEn": "Acute myocardial infarction",
+      "descriptionAr": "احتشاء عضلة القلب الحاد غير المصحوب بارتفاع ST",
+      "descriptionEn": "Acute NSTEMI"
+    },
+    "procedures": [
+      {
+        "system": "CPT",
+        "code": "92928",
+        "descriptionAr": "توسيع الشريان التاجي وتركيب دعامة",
+        "descriptionEn": "PCI with coronary stent placement"
+      }
+    ],
+    "rawNoteEn": "DISCHARGE SUMMARY\nPresented with central chest pain; troponin elevated, diagnosed with NSTEMI. Coronary angiography via right radial artery showed 90% LAD stenosis; PCI with one drug-eluting stent to LAD, no complications. Hemodynamically stable at discharge.\nDischarge meds: Aspirin 81 mg daily; Clopidogrel 75 mg daily for 12 months - do not interrupt; Atorvastatin 80 mg nightly; Bisoprolol 2.5 mg daily.\nInstructions: no lifting >5 kg with right arm for 1 week, no driving for 1 week, low-salt low-saturated-fat diet, refer to cardiac rehabilitation.\nReturn to ED if chest pain >5 minutes, sudden shortness of breath, or bleeding/swelling at the radial access site.\nFollow-up: Cardiology clinic in 2 weeks with lipid profile.",
+    "extractedEntities": [
+      {
+        "type": "diagnosis",
+        "labelAr": "احتشاء عضلة القلب (NSTEMI)",
+        "code": "I21.4",
+        "evidence": "diagnosed with NSTEMI"
+      },
+      {
+        "type": "procedure",
+        "labelAr": "قسطرة وتركيب دعامة دوائية",
+        "code": "92928",
+        "evidence": "PCI with one drug-eluting stent to LAD"
+      },
+      {
+        "type": "medication",
+        "labelAr": "أسبرين 81 ملغ",
+        "evidence": "Aspirin 81 mg daily"
+      },
+      {
+        "type": "medication",
+        "labelAr": "كلوبيدوقريل 75 ملغ لمدة 12 شهراً",
+        "evidence": "Clopidogrel 75 mg daily for 12 months - do not interrupt"
+      },
+      {
+        "type": "medication",
+        "labelAr": "أتورفاستاتين 80 ملغ",
+        "evidence": "Atorvastatin 80 mg nightly"
+      },
+      {
+        "type": "medication",
+        "labelAr": "بيسوبرولول 2.5 ملغ",
+        "evidence": "Bisoprolol 2.5 mg daily"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "تقييد حركة الذراع والقيادة",
+        "evidence": "no lifting >5 kg with right arm for 1 week, no driving for 1 week"
+      },
+      {
+        "type": "instruction",
+        "labelAr": "تحويل للتأهيل القلبي",
+        "evidence": "refer to cardiac rehabilitation"
+      },
+      {
+        "type": "red_flag",
+        "labelAr": "علامات العودة للطوارئ",
+        "evidence": "Return to ED if chest pain >5 minutes, sudden shortness of breath, or bleeding/swelling at the radial access site"
+      }
+    ],
+    "summaryAr": "تم إدخالك بسبب جلطة قلبية، وأُجريت لك قسطرة من الرسغ الأيمن مع تركيب دعامة واحدة في الشريان التاجي دون مضاعفات. حالتك مستقرة عند الخروج.",
+    "medications": [
+      {
+        "name": "Aspirin",
+        "nameAr": "أسبرين",
+        "dose": "81 ملغ",
+        "frequencyAr": "مرة يومياً",
+        "times": [
+          "09:00"
+        ],
+        "durationDays": 365,
+        "instructionsAr": "بعد الإفطار"
+      },
+      {
+        "name": "Clopidogrel",
+        "nameAr": "كلوبيدوقريل",
+        "dose": "75 ملغ",
+        "frequencyAr": "مرة يومياً",
+        "times": [
+          "09:00"
+        ],
+        "durationDays": 365,
+        "instructionsAr": "لا توقفه أبداً دون استشارة طبيب القلب"
+      },
+      {
+        "name": "Atorvastatin",
+        "nameAr": "أتورفاستاتين",
+        "dose": "80 ملغ",
+        "frequencyAr": "مرة يومياً مساءً",
+        "times": [
+          "21:00"
+        ],
+        "durationDays": 90
+      },
+      {
+        "name": "Bisoprolol",
+        "nameAr": "بيسوبرولول",
+        "dose": "2.5 ملغ",
+        "frequencyAr": "مرة يومياً",
+        "times": [
+          "09:00"
+        ],
+        "durationDays": 90
+      }
+    ],
+    "warningSignsAr": [
+      "ألم في الصدر يستمر أكثر من 5 دقائق",
+      "ضيق تنفس مفاجئ",
+      "نزيف أو تورم في مكان القسطرة بالرسغ"
+    ],
+    "homeCare": [
+      {
+        "category": "wound",
+        "titleAr": "العناية بمكان القسطرة",
+        "itemsAr": [
+          "افحص مكان القسطرة في الرسغ يومياً",
+          "حافظ على المكان نظيفاً وجافاً"
+        ]
+      },
+      {
+        "category": "activity",
+        "titleAr": "النشاط والحركة",
+        "itemsAr": [
+          "لا ترفع أكثر من 5 كجم بالذراع اليمنى لمدة أسبوع",
+          "لا تقد السيارة لمدة أسبوع",
+          "ستتواصل معك عيادة التأهيل القلبي لتحديد موعد البرنامج"
+        ]
+      },
+      {
+        "category": "diet",
+        "titleAr": "التغذية",
+        "itemsAr": [
+          "نظام غذائي قليل الملح",
+          "قلل الدهون المشبعة والمقليات"
+        ]
+      },
+      {
+        "category": "monitoring",
+        "titleAr": "الأدوية والمتابعة",
+        "itemsAr": [
+          "لا توقف أدوية سيولة الدم دون استشارة طبيبك",
+          "أحضر نتيجة تحليل الدهون إلى موعدك القادم"
+        ]
+      }
+    ],
+    "followUp": [
+      {
+        "clinicAr": "عيادة القلب",
+        "date": "2026-11-17",
+        "time": "10:00",
+        "locationAr": "مركز القلب - الدور الأول",
+        "notesAr": "إحضار نتيجة تحليل الدهون"
+      },
+      {
+        "clinicAr": "المختبر",
+        "date": "2026-11-15",
+        "time": "08:00",
+        "notesAr": "تحليل الدهون - صائم 10 ساعات"
+      }
+    ]
+  }
+]
